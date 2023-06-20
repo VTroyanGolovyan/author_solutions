@@ -1,3 +1,5 @@
 #!/bin/bash
 
-python3 main.py < stdin.txt
+read a b
+sum=$((a + b))
+echo -n $sum
