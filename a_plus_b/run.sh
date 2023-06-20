@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "2"
+#!/bin/bash
+read a b
+sum=$((a + b))
+echo -n $sum
