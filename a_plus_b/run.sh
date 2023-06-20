@@ -1,6 +1,3 @@
 #!/bin/bash
 
-#!/bin/bash
-read a b
-sum=$((a + b))
-echo -n $sum
+python3 main.py < stdin.txt
